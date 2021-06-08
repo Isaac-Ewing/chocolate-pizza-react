@@ -33,20 +33,3 @@ export class IngredientList extends React.Component {
         );
     }
 }
-
-{/* <section className= "left-list">
-    <IngredientItem amount="1 1/2" name="cups milk"/>
-    <IngredientItem amount="1/2" name="cup mascarpone"/>
-    <IngredientItem amount="1/2" name="tsp pink salt"/>
-    <IngredientItem amount="1" name="lb Black Mission Figs"/>
-    <IngredientItem amount="1/2" name="cup brown sugar"/>
-    <IngredientItem amount="2-4" name="tbsp water"/>
-</section>
-<section className= "right-list">
-    <IngredientItem amount="1 1/2" name="cups heavy cream"/>
-    <IngredientItem amount="4/3" name="granulated sugar"/>
-    <IngredientItem amount="2" name="egg yolks"/>
-    <IngredientItem amount="1" name="lemon, juiced"/>
-    <IngredientItem amount="2" name="tbsp butter"/>
-    <IngredientItem amount="1" name="cup honey roasted pecans, roughly chopped"/>
-    </section> */}
