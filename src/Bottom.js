@@ -5,12 +5,12 @@ import smallLogo from "./assets/small-logo.png";
 export class Footer extends React.Component {
     render() {
         return (
-            <section class="bottom-section">
-                <section class="author">
-                    <div class="about">
-                        <img class="author-img" src={vanPic} alt=""/>
-                        <div class="author-info">
-                            <p class="author-text"><span>Vanessa Stevenson</span><br /><br />Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+            <section className="bottom-section">
+                <section className="author">
+                    <div className="about">
+                        <img className="author-img" src={vanPic} alt=""/>
+                        <div className="author-info">
+                            <p className="author-text"><span>Vanessa Stevenson</span><br /><br />Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
                             </p>
                         </div>
                     </div>
@@ -19,13 +19,13 @@ export class Footer extends React.Component {
                     </button>
                 </section>
                 <footer>
-                    <section class="hr-logo-hr">
-                        <div class="hr-left">
+                    <section className="hr-logo-hr">
+                        <div className="hr-left">
                         </div>
                         <div>
                             <img src={smallLogo} alt=""/>
                         </div>
-                        <div class="hr-right">
+                        <div className="hr-right">
                         </div>
                     </section>
                     <section>

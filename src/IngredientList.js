@@ -4,7 +4,7 @@ import React from "react";
 class IngredientItem extends React.Component {
     render() {
         return (
-            <span>{this.props.name} {this.props.amount}</span>
+            <span> {this.props.amount} {this.props.name}</span>
         );
     }
 }
